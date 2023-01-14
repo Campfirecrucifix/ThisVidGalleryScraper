@@ -187,7 +187,7 @@ def save_pic_and_tags(direct_picture_link, path, tags):
 print('Please enter the thisvid url you would like to scrape. Ex: https://thisvid.com/albums/categories/anal/')
 url = input('Enter the URL: ')
 print('Scraping images from', url)
-url = 'https://thisvid.com/albums/categories/scat/'
+url = ''
 num_pages = get_num_pages(url)
 print("There are " + str(num_pages) + " pages to scrape.")
 create_folder()
